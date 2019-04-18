@@ -1,11 +1,17 @@
 {
   "name": "mapgen-presets-fixes",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "title": "Mapgen Presets Fixes",
   "author": "Sparr",
   "homepage": "http://github.com/sparr/factorio-mod-mapgen-presets-fixes",
   "contact": "sparr0@gmail.com",
   "description": "Fixes/adds missing mapgen presets for Bob's Mods, Angel's, MadClowns, etc.",
-  "dependencies": ["base >= 0.16.0", "?angelsrefinining >= 0.9.0", "?angelspetrochem >= 0.7.0", "?Clowns-Extended-Minerals >= 1.0.0"],
-  "factorio_version": "0.16"
+  "dependencies": [
+    "base >= 0.17.0",
+    "?angelsrefinining >= 0.10.0",
+    "?angelspetrochem >= 0.8.0",
+    "?angelsinfiniteores > 0.8.0",
+    "?Clowns-Extended-Minerals >= 1.1.0"
+  ],
+  "factorio_version": "0.17"
 }
