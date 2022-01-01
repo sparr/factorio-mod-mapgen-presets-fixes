@@ -4,31 +4,40 @@ local ribb_autoplace = data.raw["map-gen-presets"]["default"]["ribbon-world"]["b
 
 -- ores
 for _,resource in ipairs({
+  -- pyrawores 2.2.7
+  "aluminium-rock",
+  "ore-aluminium",
+  "chromium-rock",
+  "ore-chromium",
+  "coal-rock",
+  "copper-rock",
+  "iron-rock",
+  "lead-rock",
+  "ore-lead",
+  "nexelit-rock",
+  "nickel-rock",
+  "ore-nickel",
+  "phosphate-rock-02",
+  "quartz-rock",
+  "ore-quartz",
+  "raw-coal",
+  "salt-rock",
+  "tin-rock",
+  "ore-tin",
+  "titanium-rock",
+  "ore-titanium",
+  "uranium-rock",
+  "zinc-rock",
+  "ore-zinc",
+  -- pycoalprocessing 1.9.3
+  "borax",
+  "niobium",
   -- angelsrefining
-  "angels-ore5",
-  "angels-ore6",
+  -- all good as of 2021-12-31
   -- angelspetrochem
-  "angels-natural-gas",
+  -- all good as of 2021-12-31
   -- Clowns-Extended-Minerals
-  "clowns-ore1",
-  "clowns-ore2",
-  "clowns-ore3",
-  "clowns-ore4",
-  "clowns-ore5",
-  "clowns-ore6",
-  "clowns-ore7",
-  "clowns-resource1",
-  "clowns-resource2",
-  -- Angels' seems to intentionally not scale up infinite ores, so we don't do it here
-  -- "infinite-clowns-ore1",
-  -- "infinite-clowns-ore2",
-  -- "infinite-clowns-ore3",
-  -- "infinite-clowns-ore4",
-  -- "infinite-clowns-ore5",
-  -- "infinite-clowns-ore6",
-  -- "infinite-clowns-ore7",
-  -- "infinite-clowns-resource1",
-  -- "infinite-clowns-resource2",
+  -- all good as of 2021-12-31
 }) do
   if data.raw["autoplace-control"][resource] then
     rich_autoplace[resource] = { richness = 2.0 }

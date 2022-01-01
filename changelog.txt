@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: ????
+  Features:
+    - Add new entries for Pyanodon's mods
+  Changes:
+    - Remove unnecessary entries for Bob's, Angel's, MadClown's mods
+    - Version bump for Factorio 1.1
+  Other:
+    - Retroactive creation of past changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2019-04-18
+  Changes:
+    - Replace textual resource levels with numeric
+    - Version bump for Factorio 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.16.00
+Date: 2018-05-01
+  Other:
+    - Initial version of mod, for Factorio 0.16
+
